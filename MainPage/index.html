@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="everything">
+
+        <div class="scoreboard">
+
+            <p class="player-score">
+                0
+            </p>
+    
+            <p>
+                -
+            </p>
+    
+            <p class="computer-score">
+                0
+            </p>
+    
+        </div>
+
+        <div class="playground">
+
+            <div class="player ml">
+
+                <div class="player-text">
+                    You
+                </div>
+
+                <div>
+                    <img  class="player-image remove rem" src="../assets/paper-hand.png" alt="">
+                </div>
+
+                <div class="player-button-area">
+
+                    <img src="../assets/rock-logo.png" alt="" class="buttons rock">
+
+                    <img src="../assets/paper-logo.png" alt="" class="buttons paper">
+
+                    <img src="../assets/scissors-logo.png" alt="" class="buttons scissors">
+
+                </div>
+
+            </div>
+
+            <img class="vs" src="../assets/vs.png" alt="vs">
+
+            <div class="player mr">
+
+                <div class="player-text">
+                    Computer
+                </div>
+
+                <div>
+                    <img id="computerImage"  class="player-image remove rem" src="../assets/paper-hand.png" alt="">
+                </div>
+
+                <div class="hidden">
+                    <img src="../assets/rock-logo.png" alt="" class="buttons">
+
+                    <img src="../assets/paper-logo.png" alt="" class="buttons">
+
+                    <img src="../assets/scissors-logo.png" alt="" class="buttons">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="result remove">
+
+            <h2 class="won-text">You won the game</h2>
+
+            <div class="play-again-button">
+                PLAY AGAIN
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+    
+</body>
+<script src="app.js"></script>
+</html>

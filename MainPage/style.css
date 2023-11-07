@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Fredoka:wght@300;400&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans&family=Poppins:wght@100;300;400&family=Roboto+Condensed&family=Roboto:wght@300&family=Signika:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url("../assets/bg.png");
+    background-size: cover;
+}
+
+.everything{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scoreboard{
+    display: flex;
+}
+
+.scoreboard p{
+    font-size: 500%;
+    color: white;
+    font-weight: bolder;
+    padding: 15px;
+}
+
+.vs{
+    height: 90%;
+}
+
+/* playing area  */
+
+.playground{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.player-text{
+    color: white;
+    font-weight: bolder;
+    font-size: 200%;
+    text-align: center;
+}
+
+.player{
+    border: 2px solid #ffc434    ;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.player-button-area{
+    display: flex;
+    justify-content: space-around;
+}
+
+.player-image{
+    margin-top: -40px;
+    margin-bottom: -40px;
+    width: 450px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.mr{
+    margin-right: 150px;
+}
+
+.ml{
+    margin-left: 150px;
+}
+
+.remove{
+    visibility: hidden;
+}
+
+.won-text{
+    font-size: 240%;
+    font-weight: bolder;
+    color: white;
+}
+
+.play-again-button{
+    background-color: #ffc434;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 160%;
+    width: 50%;
+    font-weight: bolder;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
